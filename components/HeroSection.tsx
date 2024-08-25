@@ -12,7 +12,7 @@ const HeroSection = () => {
         <SparklesText text="FreeLancer" className="text-blue-700 lg:text-center uppercase text-[2rem] lg:text-[3rem] font-extrabold"/>
         </h1>
         <p className="text-gray-500 text-center text-md mt-5">
-            I'm vijay, a Passionate creating dynamic,user-Friendly apllications,with strong Foundation of Frontend
+            I am vijay a Passionate creating dynamic user-Friendly apllications with strong Foundation of Frontend
             </p>
             <a href="#Project">
             <ShimmerButton title="My works" icon={<ArrowDownRight/>} className="mt-6"/>    

@@ -16,14 +16,14 @@ export function ApprochSection() {
       <div className=" grid grid-cols-2 lg:grid-cols-4  w-full gap-8 lg:gap-10 mx-auto px-8">
         <Card title="Problem Solving" icon={<ArrowDownRight  size={50} color="green"/>} des="resolving problem">
           <CanvasRevealEffect
-            animationSpeed={5.1}
+            animationSpeed={3}
             containerClassName="bg-black"
             dotSize={2}
           />
         </Card>
         <Card title="Time management" icon={<ArrowDownRight size={50} color="yellow"/>} des="Proactive Planning">
           <CanvasRevealEffect
-            animationSpeed={5.1}
+            animationSpeed={3}
             containerClassName="bg-black"
             dotSize={2}
             colors={[

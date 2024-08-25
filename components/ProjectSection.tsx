@@ -2,6 +2,7 @@ import { projects } from "@/constants"
 import { PinContainer } from "./Ui/3d-pin"
 import { ArrowUpRight } from "lucide-react"
 import GradualSpacing from "./Ui/GradualSpacing"
+import Image from "next/image"
 
 
 const ProjectSection = () => {
@@ -19,7 +20,7 @@ const ProjectSection = () => {
                     <PinContainer title={title} href={link}>
                     <div className="flex basis-full flex-col p-2  gap-2 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
                     <div className=" p-1 w-full h-full overflow-hidden ">
-                        <img src={img} alt="" className="rotate-3" />
+                        <Image src={img} alt="thumbnail" className="rotate-3 w-full h-full" width='100' height='100'  />
 
                     </div>
                         <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
@@ -32,9 +33,9 @@ const ProjectSection = () => {
                     </div>
                     <div className="flex items-center justify-between px-2 mt-2">
                     <div className="flex items-center justify-center">
-                        {iconLists.map((icon)=>(
-                            <div className="flex items-center rounded-full  border border-gray-800 -translate-x-6">
-                                <img src={icon}  width={24} height={24} alt="" className="rounded-full " />
+                        {iconLists.map((icon,index)=>(
+                            <div key={index} className="flex items-center rounded-full  border border-gray-800 -translate-x-6">
+                                <Image src={icon}  width={24} height={24} alt="tech" className="rounded-full " />
                             </div>
                         ))}
                     </div>

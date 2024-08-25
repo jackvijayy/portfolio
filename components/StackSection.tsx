@@ -3,6 +3,8 @@ import { stacks, tools } from "@/constants"
 import Marquee from "react-fast-marquee"
 
 import GradualSpacing from "./Ui/GradualSpacing"
+import Image from "next/image"
+
 
 
 const StackSection = () => {
@@ -15,8 +17,8 @@ const StackSection = () => {
       <div className="w-full p-5">
         <Marquee pauseOnHover>
           <div className="flex items-center gap-8">
-           {stacks.map((item)=>(
-            <img  key={item.id} src={item.img} width={50} height={50}/>
+           {stacks.map((item,index)=>(
+            <Image  key={index} src={item.img} alt="stacks" width={50} height={50}/>
            ))}
             
           </div>
@@ -26,7 +28,7 @@ const StackSection = () => {
         <Marquee pauseOnHover direction="right">
           <div className="flex items-center gap-[5rem]">
            {tools.map((item)=>(
-            <img  key={item.id} src={item.img} width={50} height={50}/>
+            <Image  key={item.id} src={item.img} alt="tools" width={50} height={50}/>
            ))}
             
           </div>
