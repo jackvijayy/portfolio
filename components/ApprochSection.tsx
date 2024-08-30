@@ -13,7 +13,7 @@ export function ApprochSection() {
       className="font-display mb-[2.5rem] text-center text-5xl lg:text-6xl font-bold tracking-[-0.1em] text-purple-500 "
       text="My Approach"
     />
-      <div className=" grid grid-cols-2 lg:grid-cols-4  w-full gap-8 lg:gap-10 mx-auto px-8">
+      <div className=" grid grid-cols-2 lg:grid-cols-4  w-full gap-8 lg:gap-10 mx-auto px-8" id="Approach">
         <Card title="Problem Solving" icon={<ArrowDownRight  size={50} color="green"/>} des="resolving problem">
           <CanvasRevealEffect
             animationSpeed={3}
@@ -76,7 +76,7 @@ const Card = ({
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="border border-gray-700 group/canvas-card flex items-center justify-center  max-w-[30rem] mx-auto p-4 relative h-[60vh] lg:h-[60vh] "
+      className="border border-gray-700 group/canvas-card flex items-center justify-center  max-w-[30rem] mx-auto p-4 relative h-[45vh] lg:h-[60vh] "
     >
       <Icon className="absolute h-6 w-6 -top-3 -left-3 text-gray-100" />
       <Icon className="absolute h-6 w-6 -bottom-3 -left-3 text-gray-100" />

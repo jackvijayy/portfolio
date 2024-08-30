@@ -20,7 +20,7 @@ const ProjectSection = () => {
                     <PinContainer title={title} href={link}>
                     <div className="flex basis-full flex-col p-2  gap-2 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
                     <div className=" p-1 w-full h-full overflow-hidden ">
-                        <Image src={img} alt="thumbnail" className="rotate-3 w-full h-full" width='100' height='100'  />
+                        <Image src={img} alt="thumbnail" className=" w-full h-full" width='100' height='100'  />
 
                     </div>
                         <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">

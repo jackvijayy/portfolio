@@ -1,7 +1,16 @@
+import { is } from "@react-three/fiber/dist/declarations/src/core/utils";
+import { on } from "events";
+import { write } from "fs";
+import { Music, Fan, Club } from "lucide-react";
+import { run } from "node:test";
+import { title } from "process";
+import { lazy } from "react";
+import { and, not, div } from "three/webgpu";
+
 export const Navitems=[
     {name:"Home",href:"#Home"},
     {name:"Projects",href:"#Project"},
-    {name:"Service",href:"#Service"},
+    {name:"Approach",href:"#Approach"},
     {name:"contact",href:"#contact"},
 ];
 
@@ -114,3 +123,6 @@ export const tools=[
         img:"/Tools/excel.svg"
     },
 ]
+
+
+// Timeline
