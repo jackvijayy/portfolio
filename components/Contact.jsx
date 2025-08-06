@@ -7,9 +7,7 @@ import { useRef, useState } from "react";
 import useAlert from "@/Hooks/useAlert";
 import Button from "./ui/Button";
 import { ArrowBigRight } from "lucide-react";
-
 import toast, { Toaster } from 'react-hot-toast';
-
 
 
 const Contact = () => {

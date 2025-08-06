@@ -10,6 +10,7 @@ import Link from "next/link";
 import { Suspense, useState } from "react";
 import CanvasLoader from "./ui/CanvasLoader";
 
+
 const DemoComputer = dynamic(() => import('./DemoComputer'), { ssr: false });
 
 

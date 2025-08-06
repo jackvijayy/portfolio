@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 
 import Button from "./ui/Button";
 import { Globe } from "./ui/Globe";
@@ -66,7 +66,10 @@ const About = () => {
         <div className="col-span-1 xl:row-span-4">
           <div className="grid-container">
             <div className="rounded-3xl relative w-full sm:h-[326px] h-[300px] flex justify-center items-center">
+              <Suspense fallback={<p>Loading...</p>}>
               <Globe />
+              </Suspense>
+              
             </div>
             <div>
               <p className="grid-headtext">
