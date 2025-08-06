@@ -111,7 +111,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="bg-black-2 border-none rounded-md p-2 w-full  ring-neutral-200"
-                placeholder="ex., saravana"
+                
               />
             </label>
 
@@ -124,7 +124,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="bg-black-2 rounded-md border-none p-2 w-full  ring-neutral-200"
-                placeholder="ex., saro@gmail.com"
+                
               />
             </label>
 
@@ -137,7 +137,7 @@ const Contact = () => {
                 required
                 rows={5}
                 className="bg-black-2 rounded-md border-none p-2 mt-2 w-full  ring-neutral-200"
-                placeholder="Share your thoughts or inquiries..."
+               
               />
             </label>
 
