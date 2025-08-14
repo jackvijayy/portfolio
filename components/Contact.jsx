@@ -80,8 +80,8 @@ const Contact = () => {
 
   return (
     <section className="my-20">
-      <div className="flex justify-between items-center gap-2">
-        <div className="hidden lg:block max-w-[512px] ">
+      <div className="flex justify-center items-center gap-2">
+        {/* <div className="hidden lg:block max-w-[512px] ">
           <Image
             src="/images/contact.png"
             alt="contact"
@@ -89,7 +89,7 @@ const Contact = () => {
             height={500}
             className="object-cover"
           />
-        </div>
+        </div> */}
         <div className="p-3 flex-1">
           <h2 className="text-[#E4ECFF] capitalize my-5 text-2xl lg:text-3xl">
             Let's Talk
@@ -143,7 +143,7 @@ const Contact = () => {
 
             <Button
               text={loading ? "Sending....." : "send Message"}
-              className={`${loading && "bg-green-500"} mt-4`}
+              className={`${loading && "bg-green-500"} mt-4 bg-green-500`}
             >
               {loading ? "" :<ArrowBigRight className="text-center" /> }
               <Toaster />
