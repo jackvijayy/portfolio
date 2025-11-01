@@ -116,7 +116,7 @@ const Project = () => {
         </div>
 
         {/* <DemoComputer/> */}
-        <div className="border border-black-2 bg-black-2 rounded-lg h-96 md:h-full">
+        <div className="border border-black-2 bg-black rounded-lg h-96 md:h-full">
           <Canvas>
             <ambientLight intensity={Math.PI} />
             <directionalLight position={[10, 10, 5]} />
@@ -132,12 +132,6 @@ const Project = () => {
         </div>
 
       </div>
-
-      
-      
-      
-
-
 
     </section>
   );

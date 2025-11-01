@@ -1,5 +1,7 @@
 
 
+
+
 export const myProjects = [
   {
     title: 'Loom - Video Streaming',
@@ -19,27 +21,22 @@ export const myProjects = [
       {
         id: 1,
         name: 'next.js',
-        path: '/stacks/nextjs.svg',
+        path: '/Tools/nextjs.svg',
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/stacks/tailwindcss.svg',
+        path: '/Tools/css.svg',
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/stacks/ts.svg',
+        path: '/Tools/ts.svg',
       },
       {
         id: 4,
         name: 'StreamIo',
-        path: '/stacks/stream-dark.png',
-      },
-      {
-        id: 5,
-        name: 'clerk',
-        path: '/stacks/clerk.jpeg',
+        path: '/Tools/stream.svg',
       },
   
     ],
@@ -63,27 +60,27 @@ export const myProjects = [
       {
         id: 1,
         name: 'React.js',
-        path: '/stacks/react.svg',
+        path: '/Tools/react.svg',
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/stacks/tailwindcss.svg',
+        path: '/Tools/css.svg',
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/stacks/ts.svg',
+        path: '/Tools/ts.svg',
       },
       {
         id: 4,
         name: 'appwrite',
-        path: '/stacks/appwrite.jpeg',
+        path: '/Tools/appwrite.svg',
       },
       {
         id: 3,
         name: 'figma',
-        path: '/stacks/figma.png',
+        path: '/Tools/figma.svg',
       },
     ],
   },
@@ -107,23 +104,19 @@ export const myProjects = [
       {
         id: 1,
         name: 'react',
-        path: '/stacks/react.svg',
+        path: '/Tools/react.svg',
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/stacks/tailwindcss.svg',
+        path: '/Tools/css.svg',
       },
       {
         id: 3,
         name: 'redux',
-        path: '/stacks/redux.svg',
+        path: '/Tools/redux.svg',
       },
-      {
-        id: 4,
-        name: 'Rapidapi',
-        path: '/stacks/rapidapi.jpeg',
-      },
+      
     ],
   },
   {
@@ -144,23 +137,19 @@ export const myProjects = [
       {
         id: 1,
         name: 'React.js',
-        path: '/stacks/react.svg',
+        path: '/Tools/react.svg',
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/stacks/tailwindcss.svg',
+        path: '/Tools/css.svg',
       },
       {
         id: 3,
         name: 'rapidapi',
-        path: '/stacks/rapidapi.jpeg',
+        path: '/Tools/RapidApi.svg',
       },
-      {
-        id: 4,
-        name: 'chatgpt',
-        path: '/stacks/chatgpt.jpeg',
-      },
+      
     ],
   },
 ];
@@ -215,22 +204,22 @@ export const projectsAlt=[
       {
         id: 1,
         name: 'react',
-        path: '/stacks/react.svg',
+        path: '/Tools/react.svg',
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/stacks/tailwindcss.svg',
+        path: '/Tools/css.svg',
       },
       {
         id: 3,
         name: 'Gsap',
-        path: '/stacks/gsap.jpeg',
+        path: '/Tools/gsap.svg',
       },
       {
         id: 4,
         name: 'three js',
-        path: '/stacks/threejs.png',
+        path: '/Tools/threejs.svg',
       },
     ],
   },
@@ -251,17 +240,17 @@ export const projectsAlt=[
       {
         id: 1,
         name: 'React.js',
-        path: '/stacks/react.svg',
+        path: '/Tools/react.svg',
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/stacks/tailwindcss.svg',
+        path: '/Tools/css.svg',
       },
       {
         id: 3,
         name: 'rapidapi',
-        path: '/stacks/rapidapi.jpeg',
+        path: '/Tools/rapidapi.svg',
       },
      
     ],
@@ -283,23 +272,133 @@ export const projectsAlt=[
       {
         id: 1,
         name: 'React.js',
-        path: '/stacks/react.svg',
+        path: '/Tools/react.svg',
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/stacks/tailwindcss.svg',
+        path: '/Tools/css.svg',
       },
       {
         id: 3,
         name: 'GSAP',
-        path: '/stacks/gsap.jpeg',
+        path: '/Tools/gsap.svg',
       },
-      {
-        id: 4,
-        name: 'chatgpt',
-        path: '/stacks/figma.png',
-      },
+      
     ],
   },
+]
+
+
+//tech Tools
+
+export const TechTools = [
+  {
+      src: "/Tools/git.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+  {
+      src: "/Tools/n8n.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+  {
+      src: "/Tools/appwrite.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/stream.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/figma.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/firebase.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/postman.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+  
+  
+]
+
+//Tech Stacks
+
+export const TechStack = [
+  {
+      src: "/Tools/html.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+  {
+      src: "/Tools/css.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+  {
+      src: "/Tools/ts.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/py.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/c++.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/java.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/react.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/nextjs.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/nodejs.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/expressjs.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/mongo.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/postgres.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+   {
+      src: "/Tools/gsap.svg", 
+      alt: "Company 1",
+       href: "https://company1.com",
+  },
+  
 ]
